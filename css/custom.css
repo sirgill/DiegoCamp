@@ -1,5 +1,5 @@
 
-.heading-font {
+/*.heading-font {
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
@@ -11,15 +11,18 @@
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   text-transform: uppercase;
   letter-spacing: 2px;
-}
+}*/
+
 html,
 body {
   height: 100%;
   width: 100%;
 }
 body {
-  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Open Sans', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 400;
 }
+
 a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
@@ -45,9 +48,66 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
+}
+
+.btn {
+    padding: 6px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 0px;
+}
+ 
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+ 
+.btn-primary {
+    background: #27AE60;
+    color: #ffffff;
+}
+ 
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #198C49;
+}
+ 
+.btn-primary:active, .btn-primary.active {
+    background: #27AE60;
+    box-shadow: none;
+}
+
+header {
+  min-height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-image: url("../img/diego-home.jpg");
+  background-repeat: no-repeat;
+}
+header .header-content {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  padding: 150px 0 50px;
+}
+header .header-content .header-content-inner {
+  position: relative;
+  max-width: 500px;
+  margin: 0 auto;
+}
+header .header-content .header-content-inner h1 {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+.nav>li>a.sr-icons {
+    padding: 10px 8px;
 }
 
 .navbar-default {
@@ -65,6 +125,9 @@ h6 {
   font-weight: 200;
   letter-spacing: 1px;
   color: #fdcc52;
+}
+.navbar-default .navbar-header .navbar-brand img {
+  height: 52px;
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
@@ -98,71 +161,16 @@ h6 {
 .navbar-default .nav > li.active > a:focus:hover {
   background-color: transparent;
 }
-@media (min-width: 768px) {
-  .navbar-default {
-    background-color: transparent;
-    border-color: transparent;
-  }
-  .navbar-default .navbar-header .navbar-brand {
-    color: rgba(255, 255, 255, 0.7);
-  }
-  .navbar-default .navbar-header .navbar-brand:hover,
-  .navbar-default .navbar-header .navbar-brand:focus {
-    color: white;
-  }
-  .navbar-default .nav > li > a,
-  .navbar-default .nav > li > a:focus {
-    color: rgba(255, 255, 255, 0.7);
-  }
-  .navbar-default .nav > li > a:hover,
-  .navbar-default .nav > li > a:focus:hover {
-    color: white;
-  }
-  .navbar-default.affix {
-    background-color: white;
-    border-color: rgba(34, 34, 34, 0.1);
-  }
-  .navbar-default.affix .navbar-header .navbar-brand {
-    color: #222222;
-  }
-  .navbar-default.affix .navbar-header .navbar-brand:hover,
-  .navbar-default.affix .navbar-header .navbar-brand:focus {
-    color: #fdcc52;
-  }
-  .navbar-default.affix .nav > li > a,
-  .navbar-default.affix .nav > li > a:focus {
-    color: #222222;
-  }
-  .navbar-default.affix .nav > li > a:hover,
-  .navbar-default.affix .nav > li > a:focus:hover {
-    color: #fdcc52;
-  }
+
+.navbar-default .nav > li.nav-donate-btn-item {
+  padding: 25px 15px;
 }
-header {
-  position: relative;
-  width: 100%;
-  min-height: auto;
-  overflow-y: hidden;
-  background: url("../img/diego-home.jpg"), #7b4397;
-}
-header .header-content {
-  text-align: center;
-  padding: 150px 0 50px;
-  position: relative;
-}
-header .header-content .header-content-inner {
-  position: relative;
-  max-width: 500px;
-  margin: 0 auto;
-}
-header .header-content .header-content-inner h1 {
-  margin-top: 0;
-  margin-bottom: 30px;
-  font-size: 30px;
+.navbar-default .nav > li > a.nav-donate-btn {
+  background-color: #27AE60;
+  padding: 5px 18px;
 }
 
-
-
+/*
 @media (min-width: 768px) {
   header {
     min-height: 100%;
@@ -188,17 +196,33 @@ header .header-content .header-content-inner h1 {
   header .header-content .header-content-inner h1 {
     font-size: 50px;
   }
+
+
 }
+
+@media (min-width: 992px) {
+  .features {
+    height: 674px;
+    background: url("../img/inspiration-bg.jpg");
+  }
+
+}
+*/
+
 section {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 section h2 {
-  font-size: 50px;
+  font-size: 36px;
+  font-weight: 600;
+  margin: 0px;
+}
+
+section .section-content {
+  padding: 35px 0px;
 }
 
 .bg-primary {
-
-  height: 324px;
   background: #ffffff;
 }
 
@@ -211,85 +235,143 @@ section h2 {
   color: #27ae60;
 }
 
-}
 .text-primary {
   color: #fdcc52;
 }
 
 
-.features {
-  height: 674px;
-  background: url("../img/inspiration-bg.jpg");
-}
-
-section.features .section-heading {
-  margin-bottom: 90px;
-}
-section.features h2 {
-  margin-top: -50px;
+section.inspiration-section {
   color: white;
-}
-section.inspiration .section-heading p {
-  margin-bottom: 0;
-}
-section.inspiration .device-container,
-section.inspiration .feature-item {
-  max-width: 300px;
-  margin: 0 auto;
-}
-section.inspiration .device-container {
-  margin-bottom: 100px;
-}
-@media (min-width: 992px) {
-  .features {
-  height: 674px;
+  font-size: 14px;
+  letter-spacing: 1.4px;
   background: url("../img/inspiration-bg.jpg");
 }
 
+section.inspiration-section .inspiration-subheader {
+  font-size: 18px;
+  letter-spacing: 1.8px;
 }
 
-
-
-
-section.values {
+section.values-section {
   height: 231px;
   background-color: white;
 }
 
-section.values h2 {
-  margin-top: -50px;
+section.values-section .section-content {
+  font-size: 18px;
 }
 
-section.bio {
-  height: 886px;
+section.bio-section {
+  color: white;
   background: url("../img/biography-bg.jpg");
-
 }
 
-section.follow {
-   height: 1196px;
+section.follow-section {
    background-color: #ffffff;
 }
 
-section.contact {
-  height: 663px;
+section.contact-section {
+  color: white;
   background: url("../img/get-in-touch-bg.jpg");
-
 }
 
-section.contribute {
-   height: 407px;
+section.contribute-section {
    background-color: #ffffff;
+   padding-bottom: 0px;
 }
 
 footer {
-  height: 266px;
+  color: white;
   background-color: #27ae60;
-  padding: 25px 0;
+  padding: 60px 0;
   text-align: center;
+}
+footer a {
+  color: white;
+}
+footer .footer-logo {
+  height: 124px;
+}
+footer .footer-mid-section {
+  padding: 20px 0px;
+}
+footer .footer-social-icons {
+  min-width: 250px;
+}
+footer .footer-social-icons a {
+  padding: 0px 10px;
+}
+
+.vertical-align {
+  display: flex;
+  align-items: center;
 }
 
 
-body {
-  webkit-tap-highlight-color: #222222;
+@media (min-width: 768px) {
+  header {
+      min-height: 100%;
+  }
+  .navbar-nav>li>a {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .navbar-nav>li>a.sr-icons {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+  }
+  .navbar-default .navbar-header .navbar-brand {
+    color: white;
+  }
+  .navbar-default .navbar-header .navbar-brand:hover,
+  .navbar-default .navbar-header .navbar-brand:focus {
+    color: white;
+  }
+  .navbar-default .nav > li > a,
+  .navbar-default .nav > li > a:focus {
+    color: white;
+  }
+  .navbar-default .nav > li > a:hover,
+  .navbar-default .nav > li > a:focus:hover {
+    color: white;
+  }
+  .navbar-default.affix {
+    background-color: #27AE60;
+    border-color: rgba(34, 34, 34, 0.1);
+  }
+  .navbar-default.affix .navbar-header .navbar-brand {
+    color: white;
+  }
+  .navbar-default.affix .navbar-header .navbar-brand:hover,
+  .navbar-default.affix .navbar-header .navbar-brand:focus {
+    color: white;
+  }
+  .navbar-default.affix .nav > li > a,
+  .navbar-default.affix .nav > li > a:focus {
+    color: white;
+  }
+  .navbar-default.affix .nav > li > a:hover,
+  .navbar-default.affix .nav > li > a:focus:hover {
+    color: white;
+  }
+  .navbar-default.affix .nav > li > a.nav-donate-btn {
+    background-color: white;
+    color: #27AE60;
+  }
+}
+
+@media (max-width: 768px) {
+  section.inspiration-section .section-content {
+    text-align: center;
+  }
+  section.contact-section .section-content {
+    text-align: center;
+  }
+  .vertical-align {
+    display: block;
+  }
 }
