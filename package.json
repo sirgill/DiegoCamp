@@ -1,0 +1,12 @@
+{
+  "name": "Diego",
+  "homepage": "",
+  "author": "90degree",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./app.js"
+  },
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
