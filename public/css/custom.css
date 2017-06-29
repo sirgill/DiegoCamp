@@ -373,9 +373,6 @@ footer .footer-social-icons a {
   .vertical-align {
     display: block;
   }
-}
-
-@media (max-width: 421px) {
 
   .navbar-default {
     background-color: #27AE60;
@@ -387,10 +384,16 @@ footer .footer-social-icons a {
   }
 
   .navbar-default .navbar-header .navbar-brand img {
-  height: 35px;
-  padding-bottom: 5px;
+    height: 30px;  
+  }
+
+  header {
+
+    margin-top: 50px;
+
+  }
 }
 
 
 
-}
+
