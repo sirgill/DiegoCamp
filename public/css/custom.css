@@ -208,9 +208,18 @@ section.inspiration-section {
   background: url("../img/inspiration-bg.jpg");
 }
 
+
 section.inspiration-section .inspiration-subheader {
   font-size: 18px;
   letter-spacing: 1.8px;
+}
+
+section.inspiration-section div.col-md-6 img {
+
+ 
+   height: 400px;
+   padding: 40px;
+
 }
 
 section.values-section {
