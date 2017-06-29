@@ -60,20 +60,20 @@ h6 {
     text-transform: uppercase;
     border-radius: 0px;
 }
- 
+
 .btn:focus, .btn:active:focus, .btn.active:focus {
     outline: 0 none;
 }
- 
+
 .btn-primary {
     background: #27AE60;
     color: #ffffff;
 }
- 
+
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
     background: #198C49;
 }
- 
+
 .btn-primary:active, .btn-primary.active {
     background: #27AE60;
     box-shadow: none;
@@ -190,7 +190,7 @@ header .header-content .header-content-inner h1 {
   header .header-content .header-content-inner h1 {
     font-size: 35px;
   }
-  
+
 }
 @media (min-width: 992px) {
   header .header-content .header-content-inner h1 {
@@ -253,8 +253,7 @@ section.inspiration-section .inspiration-subheader {
 }
 
 section.values-section {
-  height: 231px;
-  background-color: white; 
+  background-color: white;
 }
 
 section.values-section .section-content {
