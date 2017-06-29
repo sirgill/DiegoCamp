@@ -254,7 +254,7 @@ section.inspiration-section .inspiration-subheader {
 
 section.values-section {
   height: 231px;
-  background-color: white;
+  background-color: white; 
 }
 
 section.values-section .section-content {
@@ -374,4 +374,19 @@ footer .footer-social-icons a {
   .vertical-align {
     display: block;
   }
+}
+
+@media (max-width: 421px) {
+
+  .navbar-default {
+    background-color: #27AE60;
+    border-color: rgba(34, 34, 34, 0.1);
+  }
+
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    background-color: white;
+  }
+
+ 
+
 }
