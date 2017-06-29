@@ -150,11 +150,11 @@ header .header-content .header-content-inner h1 {
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-  color: #fdcc52;
+  color: black;
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-  color: #fdcc52 !important;
+  color: black !important;
   background-color: transparent;
 }
 .navbar-default .nav > li.active > a:hover,
