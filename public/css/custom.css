@@ -170,45 +170,6 @@ header .header-content .header-content-inner h1 {
   padding: 5px 18px;
 }
 
-/*
-@media (min-width: 768px) {
-  header {
-    min-height: 100%;
-  }
-  header .header-content {
-    text-align: left;
-    padding: 0;
-    height: 100vh;
-  }
-  header .header-content .header-content-inner {
-    max-width: none;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-  header .header-content .header-content-inner h1 {
-    font-size: 35px;
-  }
-
-}
-@media (min-width: 992px) {
-  header .header-content .header-content-inner h1 {
-    font-size: 50px;
-  }
-
-
-}
-
-@media (min-width: 992px) {
-  .features {
-    height: 674px;
-    background: url("../img/inspiration-bg.jpg");
-  }
-
-}
-*/
-
 section {
   padding: 50px 0;
 }
