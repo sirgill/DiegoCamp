@@ -387,6 +387,11 @@ footer .footer-social-icons a {
     background-color: white;
   }
 
- 
+  .navbar-default .navbar-header .navbar-brand img {
+  height: 35px;
+  padding-bottom: 5px;
+}
+
+
 
 }
