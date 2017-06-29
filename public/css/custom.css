@@ -341,11 +341,10 @@ footer .footer-social-icons a {
   }
 
   .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-    background-color: white;
   }
 
   .navbar-default .navbar-header .navbar-brand img {
-    height: 30px;  
+    height: 30px;
   }
 
   header {
@@ -354,7 +353,3 @@ footer .footer-social-icons a {
 
   }
 }
-
-
-
-
