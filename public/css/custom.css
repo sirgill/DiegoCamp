@@ -127,6 +127,8 @@ header .header-content .header-content-inner h1 {
   color: #fdcc52;
 }
 .navbar-default .navbar-header .navbar-brand img {
+  background-color: #27AE60;
+  padding: 5px 18px;
   height: 52px;
 }
 .navbar-default .navbar-header .navbar-brand:hover,
@@ -169,6 +171,7 @@ header .header-content .header-content-inner h1 {
   background-color: #27AE60;
   padding: 5px 18px;
 }
+
 
 section {
   padding: 50px 0;
