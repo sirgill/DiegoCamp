@@ -308,10 +308,15 @@ footer .footer-social-icons a {
   -moz-transform: all .3s ease-in-out .001s;
 }
 
-
 @media (min-width: 768px) {
+  .container {
+    width: 100%;
+  }
   header {
     min-height: 100%;
+  }
+  .navbar-right {
+    margin-right: 0px;
   }
   .navbar-nav>li>a {
     padding-top: 40px;
@@ -365,8 +370,25 @@ footer .footer-social-icons a {
   }
 }
 
-@media (max-width: 767px) {
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
 
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 958px) {
+  .navbar-default .nav li:nth-child(-n+5) {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
   header {
     margin-top: 68px;
   }
