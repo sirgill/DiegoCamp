@@ -129,7 +129,7 @@ header .header-content .header-content-inner h1 {
 .navbar-default .navbar-header .navbar-brand img {
   background-color: #27AE60;
   padding: 5px 18px;
-  height: 52px;
+  height: 75px;
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
@@ -170,6 +170,7 @@ header .header-content .header-content-inner h1 {
 .navbar-default .nav > li > a.nav-donate-btn {
   background-color: #27AE60;
   padding: 5px 18px;
+  margin-top: 10px;
 }
 
 .navbar-default .nav li a .line {
@@ -294,6 +295,11 @@ footer .footer-social-icons a {
   padding: 0px 10px;
 }
 
+.vertical-align {
+  display: flex;
+  align-items: center;
+}
+
 .css3Animate {
   -webkit-transition: all .3s ease-in-out .001s;
   transition: all .3s ease-in-out .001s;
@@ -306,12 +312,12 @@ footer .footer-social-icons a {
       min-height: 100%;
   }
   .navbar-nav>li>a {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
   .navbar-nav>li>a.sr-icons {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
   .navbar-default {
     background-color: transparent;
