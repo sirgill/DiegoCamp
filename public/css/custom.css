@@ -152,11 +152,11 @@ header .header-content .header-content-inner h1 {
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-  color: black;
+  color: #FFFFFF;
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-  color: black !important;
+  color: #FFFFFF !important;
   background-color: transparent;
 }
 .navbar-default .nav > li.active > a:hover,
@@ -170,6 +170,27 @@ header .header-content .header-content-inner h1 {
 .navbar-default .nav > li > a.nav-donate-btn {
   background-color: #27AE60;
   padding: 5px 18px;
+}
+
+.navbar-default .nav li a .line {
+  height: 1px;
+  display: block;
+  width: 0;
+  margin-top: 4px;
+  margin-left: 50%;
+  background: #FFFFFF;
+}
+
+.navbar-default .nav li.active a .line {
+  width: 97%;
+  margin-left: -1px;
+}
+
+@media (pointer: fine) {
+  nav ul li .hover:hover .line {
+    width: 97%;
+    margin-left: -1px;
+  }
 }
 
 
@@ -273,9 +294,10 @@ footer .footer-social-icons a {
   padding: 0px 10px;
 }
 
-.vertical-align {
-  display: flex;
-  align-items: center;
+.css3Animate {
+  -webkit-transition: all .3s ease-in-out .001s;
+  transition: all .3s ease-in-out .001s;
+  -moz-transform: all .3s ease-in-out .001s;
 }
 
 
