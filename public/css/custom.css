@@ -265,7 +265,11 @@ section.bio-section {
   background: url("../img/biography-bg.jpg");
 }
 
-section.follow-section {
+section.news-section {
+  background-color: white;
+}
+
+section.media-section {
    background-color: #ffffff;
 }
 
