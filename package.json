@@ -7,7 +7,6 @@
     "start": "node ./app.js"
   },
   "dependencies": {
-    "express": "^4.15.3",
-    "stripe": "^4.23.1"
+    "express": "^4.15.3"
   }
 }

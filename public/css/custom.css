@@ -231,7 +231,6 @@ section .section-content {
   color: #fdcc52;
 }
 
-
 section.inspiration-section {
   color: white;
   font-size: 14px;
@@ -239,17 +238,14 @@ section.inspiration-section {
   background: url("../img/inspiration-bg.jpg");
 }
 
-
 section.inspiration-section .inspiration-subheader {
   font-size: 18px;
   letter-spacing: 1.8px;
 }
 
-section.inspiration-section div.col-md-6 img {
-
+section.inspiration-section div img {
    height: 400px;
    padding: 40px;
-
 }
 
 section.values-section {
@@ -271,6 +267,23 @@ section.news-section {
 
 section.media-section {
    background-color: #ffffff;
+}
+
+section.media-section .insta-feed-header h3 {
+  font-family: sans-serif;
+  font-size: 27px;
+  line-height: 36px;
+  font-weight: 300;
+  color: #292F33;
+}
+
+section.media-section #instafeed a {
+  display: block;
+  margin-bottom: 10px;
+}
+
+section.media-section #instafeed a img {
+  display: inline-block;
 }
 
 section.contact-section {

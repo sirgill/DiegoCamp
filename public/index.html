@@ -168,20 +168,24 @@
                <div class="col-lg-12 text-center">
                    <div class="section-heading">
                        <h2>MEDIA</h2>
-
-                       <hr>
                    </div>
                </div>
            </div>
            <div class="row">
-               <div class="col-md-6 text-center" >
+                <div class="col-md-6 text-center" >
                     <a class="twitter-timeline" href="https://twitter.com/cdiegomorales" data-tweet-limit="3">Tweets by Diego</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-               </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="insta-feed-header">
+                        <h3>Instagram</h3>
+                    </div>
+                    <div id="instafeed" class="row"></div>
+                </div>
            </div>
            </div>
     </section>
 
-   <section id="bio" class="bio-section">
+    <section id="bio" class="bio-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -311,7 +315,7 @@
         </div>
     </section>
 
-     <section id="contact" class="contact-section">
+    <section id="contact" class="contact-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -412,6 +416,20 @@
 
     <!-- Theme JavaScript -->
     <script src="js/custom.min.js"></script>
+
+    <!-- Instafeed -->
+    <script type="text/javascript" src="/js/instafeed.min.js"></script>
+    <script type="text/javascript">
+        var feed = new Instafeed({
+            get: 'user',
+            userId: '1510523799',
+            clientId: 'b82d00dba4eb4f3498038904925694a8',
+            accessToken: '1510523799.b82d00d.3c9d9aac75cb49cb8d9ed540fa826bb6',
+            limit: 15,
+            template: '<div class="col-md-4 col-sm-4 col-xs-4 text-center"><a href="{{link}}" target="_blank"><img class="img-responsive" src="{{image}}" /></a></div>'
+        });
+        feed.run();
+    </script>
 
 </body>
 
