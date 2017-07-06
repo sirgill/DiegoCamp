@@ -1,4 +1,5 @@
- <footer>
+
+    <footer>
         <div class="container">
             <div class="row vertical-align">
                 <div class="col-md-4 text-center">
@@ -34,7 +35,21 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
     <!-- Theme JavaScript -->
-    <script src="js/custom.min.js"></script>
+    <script src="js/custom.js"></script>
+
+    <!-- Instafeed -->
+    <script type="text/javascript" src="/js/instafeed.min.js"></script>
+    <script type="text/javascript">
+        var feed = new Instafeed({
+            get: 'user',
+            userId: '1510523799',
+            clientId: 'b82d00dba4eb4f3498038904925694a8',
+            accessToken: '1510523799.b82d00d.3c9d9aac75cb49cb8d9ed540fa826bb6',
+            limit: 15,
+            template: '<div class="col-md-4 col-sm-4 col-xs-4 text-center"><a href="{{link}}" target="_blank"><img class="img-responsive" src="{{image}}" /></a></div>'
+        });
+        feed.run();
+    </script>
 
 </body>
 
