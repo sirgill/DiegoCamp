@@ -63,7 +63,7 @@ label > span {
 button {
   float: left;
   display: block;
-  background: #666EE8;
+  background: #27AE60;
   color: white;
   box-shadow: 0 7px 14px 0 rgba(49, 49, 93, 0.10), 0 3px 6px 0 rgba(0, 0, 0, 0.08);
   border-radius: 4px;
@@ -140,11 +140,35 @@ button:active {
     </div>
     <div class="group">
       <label>
+        <span>Phone</span>
+        <input class="field" placeholder="1(317) 222 2222" name="phone" />
+      </label>
+    </div>
+    <div class="group">
+      <label>
+        <span>Address</span>
+        <input class="field" placeholder="123 Ave" name="address" />
+      </label>
+    </div>
+    <div class="group">
+      <label>
+        <span>Email</span>
+        <input class="field" placeholder="example@gmail.com" name="email" />
+      </label>
+    </div>
+    <div class="group">
+      <label>
+        <span>Occupation</span>
+        <input class="field" placeholder="occupation" name="occupation" />
+      </label>
+    </div>
+    <div class="group">
+      <label>
         <span>Card</span>
         <div id="card-element" class="field"></div>
       </label>
     </div>
-    <button type="submit">Pay</button>
+    <button type="submit">Donate</button>
     <div class="outcome">
       <div class="error"></div>
       <div class="success">
