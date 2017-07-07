@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 
 const keyPublishable = process.env.PUBLISHABLE_KEY;
 const keySecret = process.env.SECRET_KEY;
-const stripe = require("stripe")('sk_test_SZTECCqFQ9NHVOI5p5uWwa6C');
+const stripe = require("stripe")(keySecret);
 
 app.set('view engine', 'ejs');
 

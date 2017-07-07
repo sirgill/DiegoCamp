@@ -1,9 +1,0 @@
-{
-  "name": "Diego",
-  "homepage": "",
-  "author": "90degree",
-  "dependencies": {
-    "express": "^4.15.3",
-    "node": "0.0.0"
-  }
-}
